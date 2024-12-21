@@ -38,7 +38,8 @@
     "bundle": "BUNDLE_LIBRARY=1 vite build",
     "preview": "vite preview",
     "test": "vitest",
-    "prepublishOnly": "tsc && npm run bundle"
+    "prepublishOnly": "tsc && npm run bundle",
+    "prepare": "tsc && npm run bundle"
   },
   "peerDependencies": {
     "react": "^19.0.0",
